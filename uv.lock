@@ -1092,6 +1092,7 @@ dependencies = [
     { name = "jupyter" },
     { name = "minsearch" },
     { name = "openai" },
+    { name = "pandas" },
     { name = "psycopg", extra = ["binary"] },
     { name = "python-dotenv" },
     { name = "requests" },
@@ -1100,6 +1101,7 @@ dependencies = [
     { name = "torch", version = "2.13.0", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "sys_platform == 'darwin'" },
     { name = "torch", version = "2.13.0+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "sys_platform != 'darwin'" },
     { name = "toyaikit" },
+    { name = "tqdm" },
 ]
 
 [package.metadata]
@@ -1107,6 +1109,7 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "minsearch", specifier = ">=0.2.0" },
     { name = "openai", specifier = ">=2.45.0" },
+    { name = "pandas", specifier = ">=3.0.3" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.3.4" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "requests", specifier = ">=2.34.2" },
@@ -1114,6 +1117,7 @@ requires-dist = [
     { name = "sqlitesearch", specifier = ">=0.3.0" },
     { name = "torch", specifier = ">=2.13.0", index = "https://download.pytorch.org/whl/cpu" },
     { name = "toyaikit", specifier = ">=0.0.11" },
+    { name = "tqdm", specifier = ">=4.68.4" },
 ]
 
 [[package]]
